@@ -1,4 +1,4 @@
-Databases Setup In Django To connect To mongo db
+#Databases Setup In Django To connect To mongo db
 
 DATABASES = {
   'default': {
