@@ -1,0 +1,23 @@
+#installing django
+pip install django
+
+#checking django version
+django-admin --version
+
+#Creating a project
+django-admin startproject <project name>
+
+# make sure to go to inside the project where manage.py is present
+# Creating an application inside the project
+python manage.py startapp <application name>
+
+#Make the application running
+python manage.py runserver
+
+#To Create or make relavant changes to db level or models
+python manage.py makemigrations
+
+#to update the migrations
+python manage.py migrate
+
+
