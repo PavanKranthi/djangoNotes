@@ -1,0 +1,15 @@
+Databases Setup In Django To connect To mongo db
+
+DATABASES = {
+  'default': {
+    'ENGINE':   'djongo',
+    'NAME':     'pythonapplication',
+    'CLIENT': {
+      'host': 'mongodb+srv://admin:admin@7dbcluster.hn7lc.mongodb.net/pythonapplication?retryWrites=true&w=majority',
+      'port': 27017,
+      'username': 'admin',
+      'password': 'admin',
+      'authSource': 'admin', # usually admin
+    }
+  },
+}
